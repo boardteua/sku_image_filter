@@ -1,0 +1,41 @@
+.hidden{
+    display: none;
+}
+.assing-modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width:500px;
+    height:500px;
+    padding:10px;
+    box-shadow: 0 0 32px rgba(0,0,0,.4);
+}
+
+.assing-modal .reassign-output li .reassign-output-title a{
+    
+}
+.assing-modal .reassign-output li .reassign-output-msg img{
+    max-width: 32px; 
+    height: auto;
+}
+.assing-modal .reassign-output li .reassign-output-msg{
+    margin-right: 10px;
+    color:green;
+}
+.assing-modal .reassign-output li:last-child{
+    border-bottom: 0;
+}
+.assing-modal .reassign-output li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 6px;
+}
+.assing-modal .reassign-output {
+    height: 400px;
+    overflow-y: auto;
+}
